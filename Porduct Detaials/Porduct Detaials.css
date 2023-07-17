@@ -7,7 +7,7 @@
 
 .section1 {
     width: 100%;
-    height: 150vh;
+    height: 116vh;
     background-color: black;
 
 }
@@ -88,10 +88,9 @@
 }
 
 .section1 .blog .heding {
-    width: 100%;
+    width: 50%;
     height: 10vh;
     background-color: blue;
-    margin-left: 27%;
     margin-top: -15%;
     text-align: center;
 }
@@ -117,6 +116,7 @@
     background-color: antiquewhite;
     margin-top: 40px;
     margin: auto;
+    margin-top: 40px;
 }
 
 .section1 .single-product .Porduct {
@@ -142,40 +142,50 @@
     width: 50%;
     height: 100%;
     background-color: brown;
+    padding: 24px;
 }
 
-.section1 .single-product .Porduct .text-tepy h1{
+.section1 .single-product .Porduct .text-tepy h1 {
     font-size: 38px;
 }
+
 .section1 .single-product .Porduct .text-tepy .price {
     width: 100%;
-    background-color: antiquewhite;
-    height: 100px;
+    background-color: rgba(213, 1, 1, 0.642);
+    height: 70px;
     display: flex;
+
 }
+
 
 .section1 .single-product .Porduct .text-tepy .price p {
     padding: 12px;
     font-weight: bold;
+    color: rgba(202, 207, 212, 0.648);
+
 }
-.section1 .single-product .Porduct .text-tepy .plegrph{
+
+.section1 .single-product .Porduct .text-tepy .plegrph {
     margin-top: 5px;
     font-size: 20px;
 }
 
-.section1 .single-product .Porduct .text-tepy .price h4 {
+.section1 .single-product .Porduct .text-tepy .price h3 {
     padding-top: 8px;
     margin-left: -9px;
     font-weight: bold;
+    color: blue;
 }
-.section1 .single-product .Porduct .text-tepy  form {
+
+.section1 .single-product .Porduct .text-tepy form {
     width: 59%;
- 
-    height: 45%;
-   background-color: blue;
-   display: flex;
+
+    height: 50%;
+    background-color: blue;
+    display: flex;
 }
-.section1 .single-product .Porduct .text-tepy  form input {
+
+.section1 .single-product .Porduct .text-tepy form input {
     background-color: aliceblue;
     width: 28%;
     padding-left: 27px;
@@ -184,29 +194,204 @@
     height: 60px;
     font-size: 51px;
 }
-.section1 .single-product .Porduct .text-tepy form button{
-width: 57%;
-height:60px;
-font-size: 22px;
-border-radius: 25px;
-font-weight: bold;
-background-color:#ffc107;
-color:black;
+
+.section1 .single-product .Porduct .text-tepy form button {
+    width: 57%;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: #ffc107;
+    color: black;
 }
-.section1 .single-product .Porduct .text-tepy form table{
-position: absolute;
-margin-top: 104px;
-font-size: 23px;
+
+.section1 .single-product .Porduct .text-tepy form table {
+    position: absolute;
+    margin-top: 104px;
+    font-size: 23px;
 }
-.section1 .single-product .Porduct .text-tepy form table td{
+
+.section1 .single-product .Porduct .text-tepy form table td {
     padding-right: 40px;
     padding-top: 20px;
     color: rgb(102, 102, 222);
 }
-.section1 .single-product .Porduct .text-tepy form table td span{
+
+.section1 .single-product .Porduct .text-tepy form table td span {
     color: rgb(156, 152, 152);
 }
+
 /* <!----------------- end container  img and text ========================= --> */
 
 
+/* -------------------------------- start  media taplet ------------------------------------ */
+@media(max-width:768px) {
+    .section1 {
+        height: 200vh;
+    }
+
+    .section1 .blog {
+        margin-bottom: 40px;
+    }
+
+    .section1 .blog .heding {
+        width: 88%;
+        height: 10vh;
+        background-color: blue;
+        margin-left: 0%;
+        color: white;
+        margin-top: -38%;
+        text-align: center;
+    }
+
+    .section1 .blog .heding h1 {
+        font-size: 51px;
+    }
+
+    .section1 .blog .heding a {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .section1 .single-product {
+        width: 90%;
+        height: 71vh;
+        background-color: antiquewhite;
+        margin-top: 40px;
+        margin: auto;
+    }
+
+    .section1 .single-product .Porduct .img-product {
+        margin-bottom: 20px;
+    }
+
+    .section1 .single-product .Porduct .text-tepy .plegrph {
+        margin-top: 40px;
+        font-size: 20px;
+        margin-bottom: 55px;
+    }
+
+    .section1 .single-product .Porduct .text-tepy form table {
+        position: absolute;
+        margin-top: 104px;
+        font-size: 25px;
+    }
+}
+
+/* -------------------------------- end  media taplet ------------------------------------ */
+/* -------------------------------- start  media phone 412px ------------------------------------ */
+
+@media (max-width:412px) {
+    .section1 {
+        height: 234vh;
+;
+    }
+
+    .section1 .navbar .log {
+        padding-left: 55px;
+    }
+
+    .section1 .blog .heding {
+        margin-top: -63%;
+    }
+
+    .section1 .blog .heding h1 {
+        font-size: 31px;
+    }
+
+    .section1 .blog .heding a {
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .section1 .single-product .Porduct .img-product {
+        width: 106%;
+    }
+
+    .section1 .single-product .Porduct .text-tepy {
+        width: 100%;
+        height: 134%;
+        padding-left: 0px;
+
+    }
+
+    .section1 .single-product .Porduct .text-tepy form {
+        width: 88%;
+        height: 29%;
+
+    }
+
+.section1 .single-product .Porduct .text-tepy form input {
+    background-color: aliceblue;
+    width: 23%;
+   padding-left: 18px;
+}
+    .section1 .single-product .Porduct .text-tepy form table {
+        font-size: 20px;
+        margin-top: 104px;
+}
+}
+
+
+
+
+
+
+/* -------------------------------- end  media phone  412px------------------------------------ */
+
+
+/* -------------------------------- start media phone 360px ------------------------------------ */
+@media(max-width:360px){
+    .section1 {
+        height: 258vh;
+    }
+    .section1 .single-product .Porduct .text-tepy h1 {
+    font-size: 32px;
+    }
+    .section1 .single-product .Porduct .text-tepy form button {
+        font-size: 19px;}
+
+    .section1 .single-product .Porduct .text-tepy {
+        width: 100%;
+        height: 177%
+    }
+
+        .section1 .single-product .Porduct .text-tepy form input {
+            font-size: 42px;
+        
+        }
+        .section1 .single-product .Porduct .text-tepy form table {
+            font-size: 17px;}
+}
+/* -------------------------------- end  media phone 360px ------------------------------------ */
+
 /* ============================ ======= end section 1  =============================================== */
+
+
+/* ============================ ======= start section 2  =============================================== */
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    margin-top: 40px;
+}
+
+ .section2 .boder{
+    width: 80%;
+    height: 5px;
+    background-color: rgb(62, 57, 57);
+    border-radius: 40%;
+    margin: auto;
+ }
+.section2 .navs{
+    width:90%;
+    background-color: azure;
+    height: 30vh;
+    margin: auto;
+    margin-top: 65px;
+    border-radius: 30px;
+}
+/* ============================ ======= end section 2  =============================================== */

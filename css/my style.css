@@ -22,20 +22,22 @@
     /* overflow: hidden; */
     /* background-color: black; */
     margin: auto;
-    position: fixed; 
-     top: 0; 
-     right: 0; 
-    left: 0; 
-     z-index: 1030;
-     background-image: url(../images/page-heading-bg.jpg);
-      background-size: 100% 100%;
-     text-align: center;
-     border-radius: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-image: url(../images/page-heading-bg.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    border-radius: 20px;
 }
-.section1 .navbar .log{
-    
+
+.section1 .navbar .log {
+
     padding-left: 143px;
 }
+
 .section1 .navbar1 .btn4 {
     background-color: rgb(247, 227, 227);
     text-align: center;
@@ -43,7 +45,8 @@
     padding-top: 10px;
 
 }
-.section1 .navbar1 .mina{
+
+.section1 .navbar1 .mina {
     padding-right: 144px;
 }
 
@@ -213,9 +216,9 @@
 
 /* -------------------------------- start  media phone ------------------------------------ */
 
-@media(max-width:425px) {
+@media(max-width:412px) {
     .section1 {
-        height: 142vh;
+        height: 130vh;
     }
 
     .section1 .home {
@@ -254,14 +257,22 @@
     }
 
     .section1 .home .image .cord1 .offer {
-        bottom: -324px;
-        margin-left: -440px;
+        bottom: -190px;
+        margin-left: -360px;
+        font-size: 33px;
+        width: 91px;
+        height: 49px;
     }
 
     .section1 .home .image {
         width: 100%;
         /* padding: 0px; */
         margin-top: 60px;
+    }
+}
+@media(max-width:360px) {
+    .section1 {
+        height: 130vh;
     }
 }
 
@@ -348,8 +359,12 @@
 
 .section2 .card2 .text-type .icon .heading {
     display: block;
-    color: white;
+    color: black;
     font-weight: bold;
+}
+
+.section2 .card2 .text-type .icon .heading h1 {
+    font-size: 35px;
 }
 
 .section2 .card2 .text-type .icon .button .main_button {
@@ -404,6 +419,7 @@
     .section2 {
         height: auto;
     }
+
     .section2 .card2 .Trending_Games .row .card .plgrph {
         border-radius: 28px;
         background-color: #008af8;
@@ -416,12 +432,20 @@
         text-align: center;
         font-weight: bold;
     }
+
+    .section2 .card2 .Trending_Games .row .card {
+        background-color: rgba(240, 248, 255, 0.994);
+        width: 90%;
+        height: 90%;
+        border-radius: 30px;
+        margin-bottom: 12px;
+    }
 }
 
 /*  --------------------------- end media ----------------------------------------- */
 
 /* ================================= start media phone ==================  ==================*/
-@media(max-width:425px) {
+@media(max-width:412px) {
     .section2 {
         margin-bottom: 30px;
         height: auto;
@@ -444,11 +468,17 @@
         width: 50px;
         height: auto;
         position: absolute;
-        margin-top: 5px;
+        margin-top: 2px;
         padding-top: 50xp;
-        margin-left: 229px;
+        margin-left: 205px;
         text-align: center;
         font-weight: bold;
+    }
+
+    .section2 .card2 .Trending_Games .row .card img {
+        width: 114%;
+        padding-right: 4px;
+        MARGIN-LEFT: -15px;
     }
 
 }
@@ -545,7 +575,7 @@
     .section3 {
         height: 144vh;
     }
-    }
+
 
     .section3 .TOP-GAMES .item .card .card-img-top {
         width: 103%;
@@ -566,10 +596,11 @@
 
 /* ====================== start media phone =========================================== */
 
-@media (max-width:425px) {
+@media (max-width:412px) {
     .section3 {
-        height: 268vh;
+        height: 258vh;
     }
+   
 }
 
 /* ====================== end media phone =========================================== */
@@ -584,7 +615,7 @@
 .section4 {
     width: 100%;
     height: 130vh;
-    background-color: rgba(255, 255, 255,);
+    background-color: rgba(255, 255, 255, );
     margin-top: 40px;
 }
 
@@ -597,7 +628,8 @@
     text-align: center;
     margin-bottom: 77px;
 }
-.section4 .content p{
+
+.section4 .content p {
     font-size: 20px;
     color: #ffc107;
     font-weight: bold;
@@ -825,9 +857,15 @@
 }
 
 /* ======================================= start media ==================================== */
-@media(max-width:425px) {
+@media(max-width:360px) {
+    .section4 {
+        width: 100%;
+        height: 153vh;
+    }
+
     .section4 .content {
         height: 140%;
+        margin-left: 17px;
 
     }
 
@@ -839,21 +877,23 @@
 
     .section4 .img .img1 {
         position: absolute;
-        width: 76%;
-        margin-left: 14%;
-        height: 48%;
-        margin-top: 23px;
+        width: 96%;
+        margin-left: 2%;
+        height: 65%;
+        margin-top: 19px;
         border-radius: 30px;
         text-align: left;
     }
 
+
+
     .section4 .img .img3 {
-        width: 214%;
-        margin-left: -165px;
+        width: 261%;
+        margin-left: -168px;
         margin: m;
         border-radius: 29px;
         margin-top: 550px;
-        margin-right: 41px;
+        margin-right: 4px;
     }
 
     .section4 .img .img3 .text p {
@@ -863,26 +903,57 @@
     .section4 .img .img3 .text h1 {
         font-size: 33px;
     }
+
     .section4 .img .img3 .text input {
-        width: 58%;}
-        
-.section4 .img .img3 .text a button {
-    margin-left: -33px;
-    border-radius: 30px;
-    margin-top: -13px;
-    width: 129px;
-    font-weight: bold;
-    font-size: 11px;
-    height: 46px;
+        width: 58%;
+    }
+
+    .section4 .img .img3 .text a button {
+        margin-left: -33px;
+        border-radius: 30px;
+        margin-top: -13px;
+        width: 129px;
+        font-weight: bold;
+        font-size: 11px;
+        height: 46px;
+    }
+
+    .section4 .img .img2 {
+        width: 32%;
+        margin-left: 36%;
+        height: 100%;
+        border-radius: 34px;
+        background-color: rgb(255, 254, 255);
+
+    }
+
+    .section4 .footer {
+        width: 100%;
+        height: 20vh;
+        margin-top: 26px;
+    }
 }
-.section4 .img .img2 {
-    width: 32%;
-    margin-left: 36%;
-    height: 100%;
-    border-radius: 34px;
-    background-color: rgb(255, 254, 255);
-    
-}
+@media(max-width:412px){
+    .section4 {
+        width: 100%;
+        height: 128vh;}
+    .section4 .content {
+        width: 80%;
+        height: 135%;
+    }
+    .section4 .img .img1 {
+        position: absolute;
+        width: 100%;
+        margin-left: 0%;}
+        .section4 .img .img3 {
+            width: 320%;
+            height: 67%;
+            margin-left: -190px;
+            margin: m;
+            border-radius: 30px;
+            margin-top: 570px;
+            margin-right: 0px;
+        }
 }
 
 /* ==================  end section 4 ============================================ */
