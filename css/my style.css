@@ -270,9 +270,14 @@
         margin-top: 60px;
     }
 }
+
+
 @media(max-width:360px) {
     .section1 {
         height: 130vh;
+    }
+    .section1 .navbar .log {
+        padding-left: 0px;
     }
 }
 
@@ -481,6 +486,8 @@
         MARGIN-LEFT: -15px;
     }
 
+    .section2 .card2 .Trending_Games {
+        margin-left: 16px;
 }
 
 /* ================================= end media phone ==================  ==================*/
@@ -598,7 +605,14 @@
 
 @media (max-width:412px) {
     .section3 {
-        height: 258vh;
+        height: 324vh;
+    }
+    .row{
+        margin-left: 0px;
+    }
+    .section3 .TOP-GAMES .item {
+        justify-content: space-between;
+        margin-left: 2px;
     }
    
 }
@@ -855,12 +869,13 @@
         margin-right: 97px;
     }
 }
+}
 
 /* ======================================= start media ==================================== */
 @media(max-width:360px) {
     .section4 {
         width: 100%;
-        height: 153vh;
+        height: 157vh;
     }
 
     .section4 .content {
@@ -932,7 +947,10 @@
         height: 20vh;
         margin-top: 26px;
     }
+
 }
+}
+
 @media(max-width:412px){
     .section4 {
         width: 100%;
