@@ -276,9 +276,18 @@
     .section1 {
         height: 130vh;
     }
+   
     .section1 .navbar .log {
-        padding-left: 0px;
+        padding-left: 13px;
     }
+    .section1 .navbar .log img{
+        width: 120px;
+    }
+    .section1 .navbar1 .btn4 {
+        font-size: 20px;
+    }
+    
+    
 }
 
 /* -------------------------------- end   media phone ------------------------------------ */
@@ -345,17 +354,17 @@
     width: 100%;
     height: auto;
     padding: 15px;
-    /* background-color: crimson; */
+    background-color: crimson;
 }
 
 .section2 .card2 .text-type .icon {
     width: 100%;
     height: auto;
-    /* background-color: bisque; */
+    background-color: bisque;
 }
 
 .section2 .card2 .text-type .icon .heading {
-    /* background-color: greenyellow; */
+    background-color: greenyellow;
     font-size: 20px;
     color: #ffc107;
     font-weight: bold;
@@ -373,7 +382,7 @@
 }
 
 .section2 .card2 .text-type .icon .button .main_button {
-    /* background-color: black; */
+    background-color: black;
     margin-top: 20px;
     height: 50px;
     text-align: right;
@@ -386,7 +395,7 @@
 .section2 .card2 .Trending_Games .row .card {
     background-color: rgba(240, 248, 255, 0.994);
     width: 90%;
-    height: 90%;
+    height: 100%;
     border-radius: 30px;
 }
 
@@ -394,6 +403,7 @@
 
     width: 95%;
     margin: auto;
+
 }
 
 .section2 .card2 .Trending_Games .row .card img {
@@ -488,6 +498,7 @@
 
     .section2 .card2 .Trending_Games {
         margin-left: 16px;
+    }
 }
 
 /* ================================= end media phone ==================  ==================*/
@@ -507,7 +518,7 @@
     width: 80%;
     height: 50vh;
     border-radius: 50px;
-    /* background-color: rgb(84, 0, 239); */
+    background-color: rgb(84, 0, 239);
     margin: auto;
 
 }
@@ -530,9 +541,9 @@
 }
 
 .section3 .TOP-GAMES .item {
-    width: 100%;
+    width: 90%;
     justify-content: space-between;
-
+margin: auto;
 }
 
 .section3 .TOP-GAMES .item .card {
