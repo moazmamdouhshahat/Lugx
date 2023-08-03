@@ -272,13 +272,13 @@
 }
 
 
-@media(max-width:360px) {
+@media(max-width:396px) {
     .section1 {
         height: 130vh;
     }
    
     .section1 .navbar .log {
-        padding-left: 13px;
+        padding-left: 0px;
     }
     .section1 .navbar .log img{
         width: 120px;
