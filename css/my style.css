@@ -616,7 +616,7 @@ margin: auto;
 
 @media (max-width:412px) {
     .section3 {
-        height: 324vh;
+        height: 257h;
     }
     .row{
         margin-left: 0px;
@@ -883,18 +883,16 @@ margin: auto;
 }
 
 /* ======================================= start media ==================================== */
-@media(max-width:360px) {
+@media(max-width:396px) {
     .section4 {
         width: 100%;
         height: 157vh;
     }
 
     .section4 .content {
-        height: 140%;
+        height: 108%;
         margin-left: 17px;
-
     }
-
     .section4 .content .child {
         width: 100%;
         justify-content: space-between;
@@ -960,7 +958,7 @@ margin: auto;
     }
 
 }
-}
+
 
 @media(max-width:412px){
     .section4 {
