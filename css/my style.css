@@ -627,6 +627,11 @@ margin: auto;
     }
    
 }
+@media(max-width:396px){
+    .section3{
+        height: 262vh
+    }
+}
 
 /* ====================== end media phone =========================================== */
 
