@@ -1,0 +1,213 @@
+/* ========================================== start section 1 ==================== */
+.section1 {
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+}
+
+/* ============================= start navbar   ---------================= */
+.section1 .navbar1 {
+    width: 100%;
+    overflow: hidden;
+    /* background-color: black; */
+    margin: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-image: url(../../images/banner-bg.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+
+
+}
+
+.section1 .navbar .log {
+
+    padding-left: 143px;
+}
+
+.section1 .navbar1 .btn4 {
+    background-color: rgb(247, 227, 227);
+    text-align: center;
+    font-size: 31px;
+    padding-top: 10px;
+
+}
+
+.section1 .navbar1 .mina {
+    padding-right: 144px;
+}
+
+.section1 .navbar1 .mina .child li {
+    font-size: 20px;
+    color: aliceblue;
+    margin: auto;
+    padding-right: 30px;
+}
+
+.section1 .navbar1 .mina .child li:hover {
+    background-color: rgba(255, 255, 255, 0.234);
+}
+
+.section1 .navbar1 a {
+    color: antiquewhite;
+
+}
+
+.section1 .navbar1 .mina .child li a button {
+    border-radius: 50px;
+    size: 25px;
+}
+
+/* 00000000000000000000000000000000000   end navabr 00000000000000000000000000000000000000 */
+/*  =========================== start blog =========================================== */
+.section1 .blog {
+    width: 100%;
+    height: 50vh;
+    background-color: azure;
+
+    border-radius: 80px;
+    margin: auto;
+}
+
+.section1 .blog img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 80px;
+}
+
+.section1 .blog .heding {
+    width: 50%;
+    height: 10vh;
+    background-color: blue;
+    margin-top: -15%;
+    color: white;
+    text-align: center;
+}
+
+.section1 .blog .heding h1 {
+
+
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.section1 .blog .heding a {
+
+    color: white;
+    font-weight: bold;
+
+}
+
+/*  ========================== end blog========================  */
+/* <!--   =====================  Start contact_page =========================== --> */
+
+
+.section1 .contact_page{
+    width: 80%;
+    height: 70%;
+    margin: 40px auto;
+    /* background-color: black; */
+}
+.section1 .contact_page .child{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 0, 215);
+    justify-content: space-between;
+}
+/* ==================== start contact-left text =========================== */
+.section1 .contact_page .child .contact-left-text{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(165, 42, 42);
+    padding-top: 75px;
+}
+.section1 .contact_page .child .contact-left-text a{
+color: black;
+}
+/* ==================== end contact-left text =========================== */
+
+/* ==================== start contact-right text =========================== */
+.section1 .contact_page .child .contact-right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0, 255, 42);
+}
+
+/* ====================== start map ======================= */
+
+.section1 .contact_page .child .contact-right .map{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(176, 166, 166);
+    border-radius: 40px;
+}
+.section1 .contact_page .child .contact-right .map iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+} 
+/*  =========================== end ,map ================================ */
+
+
+/* /////////////////////////start input1 ===================================== */
+.section1 .contact_page .child .contact-right .input1{
+    margin-top: 16px;
+    border-radius: 20px;
+    height: 42px;
+    width: 100%;
+    background-color: black;
+}
+.section1 .contact_page .child .contact-right .input1 input{
+    width: 46%;
+    height: 100%;
+    border-radius: 20px;
+    padding-left: 24px;
+}
+.section1 .contact_page .child .contact-right .input1  .inputname{
+    margin-right: 41px;
+}
+
+/*  ///////////////////////////////// end input 1 ======================================= */
+/* ========================= start input 2 ================================== */
+.section1 .contact_page .child .contact-right .input2{
+    margin-top: 16px;
+    border-radius: 20px;
+    height: 42px;
+    width: 100%;
+    background-color: black;
+}
+
+.section1 .contact_page .child .contact-right .input2 input{
+    width: 46%;
+    height: 100%;
+    border-radius: 20px;
+    padding-left: 24px;
+}
+.section1 .contact_page .child .contact-right .input2  .inputemail{
+    margin-right: 41px;
+}
+/* ============================= end input2 ===================== */
+
+/*=======================   start input 3 ============================== */
+
+.section1 .contact_page .child .contact-right .input3{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 110px;
+    width: 100%;
+    background-color: black;
+}
+.section1 .contact_page .child .contact-right .input3 input{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+/* <!--   =====================  end contact_page =========================== --> */
+
