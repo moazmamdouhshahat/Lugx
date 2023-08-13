@@ -472,10 +472,13 @@
     /* background-color: burlywood; */
     background-image: url(../images/footer-bg.jpg);
     background-size: 52% -16%;
-    border-radius: 50px;
+    border-radius: 45px;
     text-align: center;
     color: aliceblue;
-    font-size: 30px;
+    font-size: 23px;
+}
+.section2 .footer h5{
+    padding-top: 70px;
 }
 
 /* ============================================= end footer ========================= */

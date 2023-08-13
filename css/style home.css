@@ -272,22 +272,81 @@
 }
 
 
-@media(max-width:396px) {
+@media(max-width:360px) {
     .section1 {
-        height: 130vh;
+        height: 141vh;
+        margin-bottom: 10px;
     }
-   
+
     .section1 .navbar .log {
         padding-left: 0px;
     }
-    .section1 .navbar .log img{
+
+    .section1 .navbar .log img {
         width: 120px;
     }
+
     .section1 .navbar1 .btn4 {
         font-size: 20px;
     }
-    
-    
+
+    .section1 .home .tyep {
+        width: 100%;
+        height: 62%;
+        /* background-color: brown; */
+        color: aliceblue;
+    }
+
+    .section1 .home .tyep .text h3 {
+        padding-top: 2px;
+        padding-bottom: 20px;
+        font-size: 24px;
+        padding-left: 13px;
+        text-align: center;
+    }
+
+    .section1 .home .tyep .text h1 {
+        padding-bottom: 5px;
+        font-size: 32px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .section1 .home .tyep .text p {
+        padding-left: 10px;
+        padding-bottom: 30px;
+        padding-top: 15px;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .section1 .home .tyep .text button {
+        width: 49%;
+    }
+
+    .section1 .home .tyep .text input {
+        width: 56%;
+        margin-left: 18px;
+    }
+
+    .section1 .home .image .cord1 {
+        margin: 14% auto;
+        /* border-radius: 165px; */
+        width: 91%;
+    }
+
+    .section1 .home .image .cord1 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 44px;
+    }
+
+    .section1 .home .image .cord1 .offer {
+        bottom: -232px;
+        margin-left: -320px;
+        font-size: 30px;
+        width: 84px;
+    }
 }
 
 /* -------------------------------- end   media phone ------------------------------------ */
@@ -501,6 +560,21 @@
     }
 }
 
+@media(max-width:360px) {
+    .section2 .card2 .icon-5 {
+        background-color: red;
+
+        margin-bottom: 20px;
+    }
+
+    .section2 .card2 .row .icon {
+        margin-bottom: 10px;
+        width: 79%;
+        width: 79%;
+        margin: 10px auto;
+    }
+}
+
 /* ================================= end media phone ==================  ==================*/
 
 /* =================================  end Section  2 ============================= */
@@ -543,7 +617,7 @@
 .section3 .TOP-GAMES .item {
     width: 90%;
     justify-content: space-between;
-margin: auto;
+    margin: auto;
 }
 
 .section3 .TOP-GAMES .item .card {
@@ -618,18 +692,21 @@ margin: auto;
     .section3 {
         height: 257h;
     }
-    .row{
+
+    .row {
         margin-left: 0px;
     }
+
     .section3 .TOP-GAMES .item {
         justify-content: space-between;
         margin-left: 2px;
     }
-   
+
 }
-@media(max-width:396px){
-    .section3{
-        height: 262vh
+
+@media(max-width:360px) {
+    .section3 {
+        height: 326vh;
     }
 }
 
@@ -888,16 +965,50 @@ margin: auto;
 }
 
 /* ======================================= start media ==================================== */
-@media(max-width:396px) {
+
+
+@media(max-width:412px) {
     .section4 {
         width: 100%;
-        height: 157vh;
+        height: 128vh;
     }
 
     .section4 .content {
-        height: 108%;
-        margin-left: 17px;
+        width: 80%;
+        height: 135%;
     }
+
+    .section4 .img .img1 {
+        position: absolute;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .section4 .img .img3 {
+        width: 320%;
+        height: 67%;
+        margin-left: -190px;
+        margin: m;
+        border-radius: 30px;
+        margin-top: 570px;
+        margin-right: 0px;
+    }
+}
+
+
+@media(max-width:360px) {
+    .section4 {
+        width: 100%;
+        height: 130vh;
+    }
+    
+    
+
+    .section4 .content {
+        width: 88%;
+        height: 167%;
+    }
+
     .section4 .content .child {
         width: 100%;
         justify-content: space-between;
@@ -958,34 +1069,12 @@ margin: auto;
 
     .section4 .footer {
         width: 100%;
-        height: 20vh;
+        height: 27vh;
         margin-top: 26px;
     }
 
 }
 
 
-@media(max-width:412px){
-    .section4 {
-        width: 100%;
-        height: 128vh;}
-    .section4 .content {
-        width: 80%;
-        height: 135%;
-    }
-    .section4 .img .img1 {
-        position: absolute;
-        width: 100%;
-        margin-left: 0%;}
-        .section4 .img .img3 {
-            width: 320%;
-            height: 67%;
-            margin-left: -190px;
-            margin: m;
-            border-radius: 30px;
-            margin-top: 570px;
-            margin-right: 0px;
-        }
-}
 
 /* ==================  end section 4 ============================================ */

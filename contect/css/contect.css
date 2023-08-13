@@ -160,7 +160,7 @@ color: black;
     border-radius: 20px;
     height: 42px;
     width: 100%;
-    background-color: black;
+    background-color:red;
 }
 .section1 .contact_page .child .contact-right .input1 input{
     width: 46%;
@@ -169,12 +169,13 @@ color: black;
     padding-left: 24px;
 }
 .section1 .contact_page .child .contact-right .input1  .inputname{
-    margin-right: 41px;
+     margin-right: 41px; 
+      width:46%; 
 }
 
 /*  ///////////////////////////////// end input 1 ======================================= */
 /* ========================= start input 2 ================================== */
-.section1 .contact_page .child .contact-right .input2{
+ .section1 .contact_page .child .contact-right .input2{
     margin-top: 16px;
     border-radius: 20px;
     height: 42px;
@@ -190,7 +191,7 @@ color: black;
 }
 .section1 .contact_page .child .contact-right .input2  .inputemail{
     margin-right: 41px;
-}
+} 
 /* ============================= end input2 ===================== */
 
 /*=======================   start input 3 ============================== */
@@ -206,8 +207,35 @@ color: black;
     width: 100%;
     height: 100%;
     border-radius: 20px;
+} 
+.section1 .contact_page .child .contact-right .button:hover{
+    background-color: chartreuse;
+/* background-attachment: ; */
 }
 
 
 /* <!--   =====================  end contact_page =========================== --> */
 
+/* ===================================== start footer  ========================== */
+
+
+
+
+.section1 .footer {
+    width: 100%;
+    height: 15vh;
+    margin-top: px;
+    background-color: burlywood;
+    background-image: url(../../images/footer-bg.jpg);
+    background-size: 100% ;
+    border-radius: 45px;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.section1 .footer h5{
+    padding-top: 70px;
+}
+
+/* ===== ================================= end footer  ==============================================
