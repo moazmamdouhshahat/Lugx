@@ -109,7 +109,7 @@
 
 .section1 .contact_page{
     width: 80%;
-    height: 70%;
+    height: 80%;
     margin: 40px auto;
     /* background-color: black; */
 }
@@ -224,14 +224,16 @@ color: black;
 .section1 .footer {
     width: 100%;
     height: 15vh;
-    margin-top: px;
+    margin-top: 0px;
     background-color: burlywood;
     background-image: url(../../images/footer-bg.jpg);
     background-size: 100% ;
     border-radius: 45px;
     text-align: center;
     color: aliceblue;
+    bottom: 0px;
 
+    
 }
 
 .section1 .footer h5{
@@ -239,3 +241,38 @@ color: black;
 }
 
 /* ===== ================================= end footer  ==============================================
+/*  ============================ start medai taplet ========================== */
+
+@media(max-width:768px){
+    .section1 .navbar .log {
+        padding-left:0px;
+    }
+    .section1 .blog .heding {
+        width: 50%;
+        height: 10vh;
+        background-color: blue;
+        margin-top: -37%;
+        color: white;
+    }
+    .section1 .contact_page .child .contact-right .input1 .inputname {
+        margin-right: 32px;
+        width: 46%;
+    }
+    .section1 .contact_page .child .contact-right .input2 .inputemail {
+        margin-right: 36px;
+    }
+    .section1 .footer {
+        width: 100%;
+        height: 15vh;
+        margin-top: 744px;}
+
+}
+
+/*  ============================ end  medai taplet ========================== */
+
+
+/* ============================== start medai phone 360  ================================ */
+
+
+
+/* ====================== end  */

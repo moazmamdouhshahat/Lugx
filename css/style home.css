@@ -2,6 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
+section{
+    width: 100%;
+}
 
 /* ============================  start section 1 ====================================================== */
 .section1 {
@@ -998,8 +1001,8 @@
 
 @media(max-width:360px) {
     .section4 {
-        width: 100%;
-        height: 130vh;
+        width: 95%;
+        height: 129vh;
     }
     
     
